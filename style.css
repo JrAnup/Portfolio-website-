@@ -1,0 +1,67 @@
+body {
+    font-family: "Inria serif", serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.nav-font {
+    font-family: "Inknut Antiqua", serif;
+}
+
+/*Hero section*/
+
+.hero {
+    min-height: 60vh;
+    background: linear-gradient(90.04deg, green  ,yellow )
+}
+
+/* titles */
+.title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 3rem;
+}
+
+.title span{
+    padding: 0.5rem 2rem;
+    border-bottom: 0.4rem solid rgb(153, 233, 78);
+}
+
+/* Icons */
+
+
+.icons i {
+    font-size: 3rem;
+}
+
+.icons > div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+/* project section */
+.project {
+    background: rgb(0, 71, 0);
+}
+
+.project .row{
+    --bs-gutter-x:0 ;
+}
+.project span{
+    padding: 0.5rem 2rem;
+    border-bottom: 0.4rem solid rgb(153, 233, 78);
+}
+
+.project a{
+    color: white;
+    text-decoration: none;
+}
+/* about me section */
+.about {
+    background: hsla(172, 87%, 44%, 0.835);
+    border-radius: 31px;
+}
